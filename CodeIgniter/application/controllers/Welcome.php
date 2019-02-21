@@ -26,12 +26,13 @@ class Welcome extends CI_Controller {
 			$this->load->helper('url');
 		}
 
-
 	public function index()
 	{
-	
-		$this->load->view('home/headers');
 		$this->load->view('home/principal');
-		$this->load->view('home/footer');
 	}
+
+	function productos(){
+        $this->load->view('product/product');
+	}
+	
 }

@@ -1,4 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
 
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>groham | HTML Ecommerce Template</title>
+
+    <!-- BOOTSTRAP -->
+    <link rel="stylesheet" href="<?php echo base_url('assets/css/bootstrap.min.css');?>">
+   
+
+    <!-- FONT AWESOME -->
+    <link rel="stylesheet" href="<?php echo base_url('assets/css/font-awesome.min.css');?>">
+
+    <link rel="stylesheet" href="<?php echo base_url('assets/css/eleganticon.css');?>">
+
+    <!-- MAGNIFIC POPUP -->
+    <link rel="stylesheet" href="<?php echo base_url('assets/css/magnific-popup.css');?>">
+
+    <!-- OWL CAROUSEL -->
+    <link rel="stylesheet" href="<?php echo base_url('assets/css/owl.carousel.css');?>">
+
+    <!--Jquery ui-->
+    <link rel="stylesheet" href="<?php echo base_url('assets/css/jquery-ui.css');?>">
+
+    <!-- ANIMATE CSS -->
+    <link rel="stylesheet" href="<?php echo base_url('assets/css/animate.css');?>">
+
+    <!-- STYLESHEET -->
+    <link rel="stylesheet" href="<?php echo base_url('assets/css/home/style.css');?>">
+
+
+    <!-- GOOGLE FONTS -->
+    <link href='<?php echo base_url('https://fonts.googleapis.com/css?family=Open+Sans:300,500,600,700');?> ' rel='stylesheet' type='text/css'>
+    <link href='<?php echo base_url('https://fonts.googleapis.com/css?family=Raleway:600,700');?> ' rel='stylesheet' type='text/css'>
+    <link href='<?php echo base_url('https://fonts.googleapis.com/css?family=Montserrat:400,700');?> ' rel='stylesheet' type='text/css'>
+    <link href='<?php echo base_url('https://fonts.googleapis.com/css?family=Cookie:400');?> ' rel='stylesheet' type='text/css'>
+
+    <!-- FAVICON -->
+    <link rel="icon" href="assets/img/favicon.ico">
+    <link rel="apple-touch-icon" href="<?php echo base_url('assets/img/apple-touch-icon.png');?> ">
+    <link rel="apple-touch-icon" sizes="72x72" href="<?php echo base_url('assets/img/apple-touch-icon-72x72.png');?> ">
+    <link rel="apple-touch-icon" sizes="114x114" href="<?php echo base_url('assets/img/apple-touch-icon-114x114.png');?> ">
+
+    <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+      <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+    <![endif]-->
+</head>
 
 <body class="home01">
     <!--Header-->
@@ -16,12 +68,12 @@
                         <div class="right">
                             <ul>
                                 <li class="cart">
-                                    <a href="#"> <img alt="cart" src="assets/images/cart.png"> cart <span>2</span> </a>
+                                    <a href="#"> <img alt="cart" src="<?php echo base_url('assets/img/cart.png');?> "> cart <span>2</span> </a>
                                     <div class="cart-list hidden-xs">
                                         <h5 class="title">your shopping cart <span>(2 items)</span></h5>
                                         <div class="cart-item">
-                                            <div class="cart-item-image">
-                                                <img class="img-responsive" alt="Single product" src="assets/images/small_gallery/03.jpg">
+                                            <div class="cart-item-img">
+                                                <img class="img-responsive" alt="Single product" src="<?php echo base_url('assets/img/small_gallery/03.jpg');?> ">
                                             </div>
 
                                             <div class="product-info">
@@ -47,8 +99,8 @@
                                             </div>
                                         </div>
                                         <div class="cart-item">
-                                            <div class="cart-item-image">
-                                                <img class="img-responsive" alt="Single product" src="assets/images/small_gallery/04.jpg">
+                                            <div class="cart-item-img">
+                                                <img class="img-responsive" alt="Single product" src="<?php echo base_url('assets/img/small_gallery/04.jpg');?> ">
                                             </div>
 
                                             <div class="product-info">
@@ -108,10 +160,10 @@
                 <div class="row">
                     <div class="col-md-8 col-sm-8 col-xs-12 site-logo">
                         <div class="logo">
-                            <a href="home01.html"><img src="assets/images/logo.png" alt="logo" />
+                            <a href="home01.html"><img src="<?php echo base_url('assets/img/logo.png');?>  " alt="logo" />
                             </a>
                         </div>
-                        <div class="cart-text"> <img src="assets/images/cart-2.png" alt="cart-2"> Free delivery on all US orders over $99 | Free Returns </div>
+                        <div class="cart-text"> <img src="<?php echo base_url('assets/img/cart-2.png');?> " alt="cart-2"> Free delivery on all US orders over $99 | Free Returns </div>
                     </div>
                     <!--/.site-logo-->
                     <div class="col-md-4 col-sm-4 col-xs-12 header-search">
@@ -203,7 +255,7 @@
 
                                             </ul>
                                         </div>
-                                        <div class="col-md-3 col-sm-6 menuimg"> <img src="assets/images/blog_listed1.jpg" alt="" class="img-responsive"> </div>
+                                        <div class="col-md-3 col-sm-6 menuimg"> <img src="<?php echo base_url('assets/img/blog_listed1.jpg');?> " alt="" class="img-responsive"> </div>
                                     </div>
                                 </li>
                             </ul>
@@ -252,7 +304,7 @@
                                                 </li>
                                             </ul>
                                         </div>
-                                        <div class="col-md-3 col-sm-6 menuimg"> <img src="assets/images/blog_listed1.jpg" alt="" class="img-responsive"> </div>
+                                        <div class="col-md-3 col-sm-6 menuimg"> <img src="<?php echo base_url('assets/img/blog_listed1.jpg');?>  " alt="" class="img-responsive"> </div>
                                     </div>
                                 </li>
                             </ul>
@@ -307,33 +359,33 @@
                                 <div class="single-slider-item">
                                     <ul class="owl-slider">
                                         <li class="item">
-                                            <img src="assets/images/gallery_men/single-shop-details/big/image1xxl.jpg" alt="" class="img-responsive">
+                                            <img src="<?php echo base_url('assets/img/gallery_men/single-shop-details/big/image1xxl.jpg');?>" alt="" class="img-responsive">
                                         </li>
                                         <li class="item">
-                                            <img src="assets/images/gallery_men/single-shop-details/big/image2xxl.jpg" alt="" class="img-responsive">
+                                            <img src="<?php echo base_url('assets/img/gallery_men/single-shop-details/big/image2xxl.jpg');?>" alt="" class="img-responsive">
                                         </li>
                                         <li class="item">
-                                            <img src="assets/images/gallery_men/single-shop-details/big/image4xxl.jpg" alt="" class="img-responsive">
+                                            <img src="<?php echo base_url('assets/img/gallery_men/single-shop-details/big/image4xxl.jpg');?> " alt="" class="img-responsive">
                                         </li>
                                         <li class="item">
-                                            <img src="assets/images/gallery_men/single-shop-details/big/image3xxl.jpg" alt="" class="img-responsive">
+                                            <img src="<?php echo base_url('assets/img/gallery_men/single-shop-details/big/image3xxl.jpg');?> " alt="" class="img-responsive">
                                         </li>
                                     </ul>
                                     <ul class="thumbnails-wrapper" id="thumbnails-wrapper">
                                         <li class="thumbnails">
-                                            <a href="#"><img src="assets/images/gallery_men/single-shop-details/small/shop-1-1.jpg" alt="" class="img-responsive">
+                                            <a href="#"><img src="<?php echo base_url('assets/img/gallery_men/single-shop-details/small/shop-1-1.jpg');?> " alt="" class="img-responsive">
                                             </a>
                                         </li>
                                         <li class="thumbnails">
-                                            <a href="#"><img src="assets/images/gallery_men/single-shop-details/small/shop-1-2.jpg" alt="" class="img-responsive">
+                                            <a href="#"><img src="<?php echo base_url('assets/img/gallery_men/single-shop-details/small/shop-1-2.jpg');?> " alt="" class="img-responsive">
                                             </a>
                                         </li>
                                         <li class="thumbnails">
-                                            <a href="#"><img src="assets/images/gallery_men/single-shop-details/small/shop-1-3.jpg" alt="" class="img-responsive">
+                                            <a href="#"><img src="<?php echo base_url('assets/img/gallery_men/single-shop-details/small/shop-1-3.jpg');?> " alt="" class="img-responsive">
                                             </a>
                                         </li>
                                         <li class="thumbnails">
-                                            <a href="#"><img src="assets/images/gallery_men/single-shop-details/small/shop-1-4.jpg" alt="" class="img-responsive">
+                                            <a href="#"><img src="<?php echo base_url('assets/img/gallery_men/single-shop-details/small/shop-1-4.jpg');?> " alt="" class="img-responsive">
                                             </a>
                                         </li>
                                     </ul>
@@ -397,7 +449,7 @@
                                                 </li>
                                                 <li><a href="#"><span class="icon_heart_alt"></span></a>
                                                 </li>
-                                                <li><a class="zoom" href="assets/images/gallery_men/single-shop-details/big/image1xxl.jpg"><span class="arrow_expand"></span></a>
+                                                <li><a class="zoom" href="<?php echo base_url('assets/img/gallery_men/single-shop-details/big/image1xxl.jpg');?> "><span class="arrow_expand"></span></a>
                                                 </li>
                                             </ul>
                                         </div>
@@ -434,8 +486,6 @@
                                         <div class="single-post-page">
                                             <div class="row">
 
-
-
                                                 <!-- Comment-Area -->
                                                 <div id="comments" class="comments-area">
                                                     <div class="comment-section">
@@ -445,7 +495,7 @@
                                                                 <div class="comment-body">
                                                                     <div class="comment-author vcard">
                                                                         <div class="author-img">
-                                                                            <img alt="" src="assets/images/author/02.jpg">
+                                                                            <img alt="" src="<?php echo base_url('assets/img/author/02.jpg');?> ">
                                                                         </div>
                                                                     </div>
                                                                     <!--/.comment-author-->
@@ -473,7 +523,7 @@
                                                                         <div class="comment-body">
                                                                             <div class="comment-author vcard">
                                                                                 <div class="author-img">
-                                                                                    <img alt="author" src="assets/images/author/01.jpg">
+                                                                                    <img alt="author" src="<?php echo base_url('assets/img/author/01.jpg');?> ">
                                                                                 </div>
                                                                             </div>
                                                                             <!--/.comment-author -->
@@ -506,7 +556,7 @@
                                                                 <div class="comment-body">
                                                                     <div class="comment-author vcard">
                                                                         <div class="author-img">
-                                                                            <img alt="" src="assets/images/author/03.png">
+                                                                            <img alt="" src="<?php echo base_url('assets/img/author/03.png');?> ">
                                                                         </div>
                                                                     </div>
                                                                     <!--/.comment-author -->
@@ -534,7 +584,7 @@
                                                                         <div class="comment-body">
                                                                             <div class="comment-author vcard">
                                                                                 <div class="author-img">
-                                                                                    <img alt="author" src="assets/images/author/04.jpg">
+                                                                                    <img alt="author" src="<?php echo base_url('assets/img/author/04.jpg');?> ">
                                                                                 </div>
                                                                             </div>
                                                                             <!--/.comment-author -->
@@ -590,14 +640,14 @@
                                     <div class="col-md-3 col-sm-6 col-xs-6">
                                         <div class="product-single">
                                             <div class="product-thumb">
-                                                <img class="img-responsive" alt="Single product" src="assets/images/gallery_men/01.jpg">
+                                                <img class="img-responsive" alt="Single product" src="<?php echo base_url('assets/img/gallery_men/01.jpg');?>  ">
                                                 <div class="actions">
                                                     <ul>
                                                         <li><a class="add-cart" href="single-product.html"><span><span class="icon_plus"></span></span> add to cart</a>
                                                         </li>
                                                         <li><a href="#"><span class="icon_heart_alt"></span></a>
                                                         </li>
-                                                        <li><a class="zoom" href="assets/images/gallery_men/01.jpg"><span class="arrow_expand"></span></a>
+                                                        <li><a class="zoom" href="<?php echo base_url('assets/img/gallery_men/01.jpg');?> "><span class="arrow_expand"></span></a>
                                                         </li>
                                                     </ul>
                                                 </div>
@@ -618,14 +668,14 @@
                                     <div class="col-md-3 col-sm-6 col-xs-6">
                                         <div class="product-single">
                                             <div class="product-thumb">
-                                                <img class="img-responsive" alt="Single product" src="assets/images/gallery_men/03.jpg">
+                                                <img class="img-responsive" alt="Single product" src="<?php echo base_url('assets/img/gallery_men/03.jpg');?>">
                                                 <div class="actions">
                                                     <ul>
                                                         <li><a class="add-cart" href="single-product.html"><span><span class="icon_plus"></span></span> add to cart</a>
                                                         </li>
                                                         <li><a href="#"><span class="icon_heart_alt"></span></a>
                                                         </li>
-                                                        <li><a class="zoom" href="assets/images/gallery_men/03.jpg"><span class="arrow_expand"></span></a>
+                                                        <li><a class="zoom" href="<?php echo base_url('assets/img/gallery_men/03.jpg');?> "><span class="arrow_expand"></span></a>
                                                         </li>
                                                     </ul>
                                                 </div>
@@ -646,14 +696,14 @@
                                     <div class="col-md-3 col-sm-6 col-xs-6">
                                         <div class="product-single">
                                             <div class="product-thumb">
-                                                <img class="img-responsive" alt="Single product" src="assets/images/gallery_men/05.jpg">
+                                                <img class="img-responsive" alt="Single product" src="<?php echo base_url('assets/img/gallery_men/05.jpg');?> ">
                                                 <div class="actions">
                                                     <ul>
                                                         <li><a class="add-cart" href="single-product.html"><span><span class="icon_plus"></span></span> add to cart</a>
                                                         </li>
                                                         <li><a href="#"><span class="icon_heart_alt"></span></a>
                                                         </li>
-                                                        <li><a class="zoom" href="assets/images/gallery_men/05.jpg"><span class="arrow_expand"></span></a>
+                                                        <li><a class="zoom" href="<?php echo base_url('assets/img/gallery_men/05.jpg');?> "><span class="arrow_expand"></span></a>
                                                         </li>
                                                     </ul>
                                                 </div>
@@ -674,14 +724,14 @@
                                     <div class="col-md-3 col-sm-6 col-xs-6">
                                         <div class="product-single">
                                             <div class="product-thumb">
-                                                <img class="img-responsive" alt="Single product" src="assets/images/gallery_men/08.jpg">
+                                                <img class="img-responsive" alt="Single product" src="<?php echo base_url('assets/img/gallery_men/08.jpg');?> ">
                                                 <div class="actions">
                                                     <ul>
                                                         <li><a class="add-cart" href="single-product.html"><span><span class="icon_plus"></span></span> add to cart</a>
                                                         </li>
                                                         <li><a href="#"><span class="icon_heart_alt"></span></a>
                                                         </li>
-                                                        <li><a class="zoom" href="assets/images/gallery_men/08.jpg"><span class="arrow_expand"></span></a>
+                                                        <li><a class="zoom" href="<?php echo base_url('assets/img/gallery_men/08.jpg');?>"><span class="arrow_expand"></span></a>
                                                         </li>
                                                     </ul>
                                                 </div>
@@ -774,25 +824,25 @@
                             </ul>
                             <ul class="card-list">
                                 <li>
-                                    <a href="#"><img src="assets/images/card/01.png" alt="card">
+                                    <a href="#"><img src="<?php echo base_url('assets/img/card/01.png');?> " alt="card">
                                     </a>
                                 </li>
                                 <li>
-                                    <a href="#"><img src="assets/images/card/prymant-3.png" alt="card">
+                                    <a href="#"><img src="<?php echo base_url('assets/img/card/prymant-3.png');?> " alt="card">
                                     </a>
 
                                 </li>
                                 <li>
-                                    <a href="#"><img src="assets/images/card/prymant-1.png" alt="card">
+                                    <a href="#"><img src="<?php echo base_url('assets/img/card/prymant-1.png');?> " alt="card">
                                     </a>
                                 </li>
                                 <li>
-                                    <a href="#"><img src="assets/images/card/prymant-2.png" alt="card">
+                                    <a href="#"><img src="<?php echo base_url('assets/img/card/prymant-2.png');?> " alt="card">
                                     </a>
                                 </li>
                                 <li>
 
-                                    <a href="#"><img src="assets/images/card/prymant-4.png" alt="card">
+                                    <a href="#"><img src="<?php echo base_url('assets/img/card/prymant-4.png');?> " alt="card">
                                     </a>
                                 </li>
                             </ul>
@@ -801,3 +851,65 @@
                 </div>
             </div>
         </div>
+        <!--/.footer-top-->
+        <div class="footer-bottom">
+            <div class="container">
+                <div class="row">
+                    <div class="footer-logo">
+                        <a href="home01.html"><img src="<?php echo base_url('assets/img/logo.png');?> " alt="logo">
+                        </a>
+                    </div>
+                    <ul class="social">
+                        <li><a href="#">facebook</a>
+                        </li>
+                        <li><a href="#">twitter</a>
+                        </li>
+                        <li><a href="#">pinterest</a>
+                        </li>
+                        <li><a href="#">instagram</a>
+                        </li>
+                        <li><a href="#">linked in</a>
+                        </li>
+                        <li><a href="#">google+</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <!--/.footer-bottom-->
+        <div class="copyright home01">
+            <div class="container">
+                <p class="text-center">&copy; 2016 by Groham - Fashion Template | All rights reserved</p>
+            </div>
+        </div>
+        <!--/.copyright-->
+    </footer>
+    <!--/.footer-->
+
+    <!--==============================
+     Footer js pluging -->
+    <!-- jQuery -->
+
+    <script src="<?php echo base_url('assets/js/jquery-1.12.0.min.js');?> "></script>
+    <!-- modernizr -->
+    <script src="<?php echo base_url('assets/js/vendor/modernizr-2.8.3.min.js');?> "></script>
+    <!-- Bootstrap -->
+    <script type="text/javascript" src="<?php echo base_url('assets/js/bootstrap.min.js');?> "></script>
+    <!-- wow js-->
+    <script type="text/javascript" src="<?php echo base_url('assets/js/wow.min.js');?> "></script>
+    <!-- venobox js-->
+    <script type="text/javascript" src="<?php echo base_url('assets/js/venobox.min.js');?>"></script>
+    <!-- mouse hover js-->
+    <script src="<?php echo base_url('assets/js/jquery.directional-hover.js');?> "></script>
+    <!-- owl js -->
+    <script src="<?php echo base_url('assets/js/owl.carousel.min.js');?> "></script>
+    <!--Jquery ui-->
+    <script src="<?php echo base_url('assets/js/jquery-ui.js');?>"></script>
+    <!-- magnific popup -->
+    <script src="<?php echo base_url('assets/js/jquery.magnific-popup.min.js');?> "></script>
+    <!-- smoothscroll -->
+    <script src="<?php echo base_url('assets/js/smoothscroll.js');?> "></script>
+    <!-- settings -->
+    <script type="text/javascript" src="<?php echo base_url('assets/js/setting.js');?> "></script>
+</body>
+</html>
